@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "data:import": "node db/Seeder",
-    "data:destroy": "node db/Seeder -d"
+    "data:import": "nodemon db/Seeder",
+    "data:destroy": "nodemon db/Seeder -d"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
